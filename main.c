@@ -37,4 +37,11 @@ int main()
             *(ptr2 + i) = *(ptr1 + (9 - i));
         }
     }
+
+    printf("Array:\n");
+    for (i = 0; i < 10; i++)
+    {
+        printf("%d ", arr2[i]);
+    }
+    printf("\n\n");
 }
